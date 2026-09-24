@@ -1,0 +1,43 @@
+:root {
+  --navy: #16233d;
+  --gold: #b98d3e;
+  --gold-hover: #a67a2f;
+  --cream: #f6f3ec;
+}
+
+/* Fondos oscuros (navbar, header, footer) -> azul marino */
+.navbar.bg-dark,
+header.bg-dark,
+footer.bg-dark {
+  background-color: var(--navy) !important;
+}
+
+/* Links del menú y hover en dorado */
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: var(--gold) !important;
+}
+
+/* Botones principales -> dorado */
+.btn-primary {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  color: var(--navy) !important;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: var(--gold-hover) !important;
+  border-color: var(--gold-hover) !important;
+  color: var(--cream) !important;
+}
+
+/* Íconos y acentos en dorado */
+.text-primary {
+  color: var(--gold) !important;
+}
+
+/* Fondo general suave */
+body {
+  background-color: var(--cream);
+}
